@@ -1,6 +1,6 @@
 # Profile Website
 
-Welcome to my profile webiste, fellas!
+Welcome to my profile webiste, brosephs!
 <!-- enter your target audience after the comma above -->
 
 Since you're here, you might be: 
