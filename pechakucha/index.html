@@ -12,12 +12,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="pechakucha/" />
 <meta property="og:site_name" content="My Website" />
-<meta property="og:description" content="Atle the therapy dog! Atle, a therapy dog that was in the library every now and then Some of the lunch I've had here! Some of the lunch that I’ve had here" />
+<meta property="og:description" content="![First day moving in](/_static/img/moving in.jpg “Sitting with my suitcase”) First day moving in, receiving a temporary ID Edwards aftermath After Edwards, we were forced to walk in some crazy rai..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="/_images/social_previews/summary_pechakucha_c694904e.png" />
-<meta property="og:image:alt" content="Atle the therapy dog! Atle, a therapy dog that was in the library every now and then Some of the lunch I've had here! Some of the lunch that I’ve had here" />
-<meta name="description" content="Atle the therapy dog! Atle, a therapy dog that was in the library every now and then Some of the lunch I've had here! Some of the lunch that I’ve had here" />
+<meta property="og:image" content="/_images/social_previews/summary_pechakucha_8eb829c0.png" />
+<meta property="og:image:alt" content="![First day moving in](/_static/img/moving in.jpg “Sitting with my suitcase”) First day moving in, receiving a temporary ID Edwards aftermath After Edwards,..." />
+<meta name="description" content="![First day moving in](/_static/img/moving in.jpg “Sitting with my suitcase”) First day moving in, receiving a temporary ID Edwards aftermath After Edwards, we were forced to walk in some crazy rai..." />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>Images &#8212; My Website</title>
@@ -381,15 +381,28 @@ document.write(`
 <section class="tex2jax_ignore mathjax_ignore" id="images">
 <h1>Images<a class="headerlink" href="#images" title="Permalink to this heading">#</a></h1>
 <div id='slideshow'>
-:::{include} _static/buttons.html
-:::
+<!-- a container for the buttons -->
+<div class="controls">
+    <!-- the btn,  btn-dark, and btn-info classes come from Bootstrap-->
+<input class='btn btn-dark' id="pageview" type="button" value="X" onclick="closeFullscreen()"/>
+<input class='btn btn-info' id="presentation" type="button" value="Present" onclick="openFullscreen()"/>
+<!-- the functions called by buttons are defined in layout.html -->
+</div>
 <div class="sd-sphinx-override sd-cards-carousel sd-card-cols-2 docutils">
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text"><img alt="Atle the therapy dog!" src="../_images/atle.jpg" /></p>
+<p class="sd-card-text">![First day moving in](/_static/img/moving in.jpg “Sitting with my suitcase”)</p>
 </div>
 <div class="sd-card-footer docutils">
-<p class="sd-card-text">Atle, a therapy dog that was in the library every now and then</p>
+<p class="sd-card-text">First day moving in, receiving a temporary ID</p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="Edwards aftermath" src="../_images/drenched.jpg" /></p>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">After Edwards, we were forced to walk in some crazy rain.</p>
 </div>
 </div>
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
@@ -397,7 +410,15 @@ document.write(`
 <p class="sd-card-text"><img alt="Some of the lunch I've had here!" src="../_images/grilledcheese.jpg" /></p>
 </div>
 <div class="sd-card-footer docutils">
-<p class="sd-card-text">Some of the lunch that I’ve had here</p>
+<p class="sd-card-text">Some of the… worse lunch I’ve had here.</p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="Atle the therapy dog!" src="../_images/atle.jpg" /></p>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Atle, a therapy dog that was in the library every now and then</p>
 </div>
 </div>
 </div>
