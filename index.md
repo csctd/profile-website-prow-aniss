@@ -5,7 +5,7 @@ Welcome to my first website! (I'd say I did pretty alright.)
 
 Feel free to take a look around :]
 
-![kitty](/_static/img/ms_cat.png) "poorly drawn cat thinking about absolutely nothing")
+![kitty](/_static/img/ms_cat.png)
 
 
 
