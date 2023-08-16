@@ -1,6 +1,7 @@
 # Images
 
 <div id='slideshow'>
+
 :::{include} _static/buttons.html
 :::
 
@@ -10,17 +11,33 @@
 ```{card}
 :class-card: slide
 
-![Atle the therapy dog!](/_static/img/atle.jpg "Atle the dog")
+![First day moving in](/_static/img/moving in.jpg "Sitting with my suitcase")
 +++
-Atle, a therapy dog that was in the library every now and then
+First day moving in, receiving a temporary ID
 ```
 
 ```{card}
 :class-card: slide
 
-![Some of the lunch I've had here!](/_static/img/grilledcheese.jpg "Dining hall food, containing some chicken, mashed potatoes, and a grilled cheese. THIS IS A COMMENT TO REMEMBER THAT THIS IS THE BASIC FORMAT FOR EACH SLIDE.")
+![Edwards aftermath](/_static/img/drenched.jpg "Me, completely drenched")
 +++
-Some of the lunch that I've had here
+After Edwards, we were forced to walk in some crazy rain.
+```
+
+```{card}
+:class-card: slide
+
+![Some of the lunch I've had here!](/_static/img/grilledcheese.jpg "Dining hall food, containing some chicken, mashed potatoes, and a grilled cheese.")
++++
+Some of the... worse lunch I've had here.
+```
+
+```{card}
+:class-card: slide
+
+![Atle the therapy dog!](/_static/img/atle.jpg "Atle the dog")
++++
+Atle, a therapy dog that was in the library every now and then
 ```
 
 ````
