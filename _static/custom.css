@@ -57,7 +57,9 @@ ul.ablog-archive {
     padding-bottom: .5em;
 }
 
-div.bd-sidebar h3, div.bd-sidebar h2, div.bd-sidebar ul {
+div.bd-sidebar h3,
+div.bd-sidebar h2,
+div.bd-sidebar ul {
     padding-left: 5%;
 }
 
@@ -66,15 +68,15 @@ ul.postlist {
     padding-left: 0;
 }
 
-ul.postlist > li > p:first-child {
+ul.postlist>li>p:first-child {
     font-size: 1.5em;
 }
 
-ul.postlist li + li {
+ul.postlist li+li {
     margin-top: 2em;
 }
 
-ul.postlist li > p > a {
+ul.postlist li>p>a {
     font-style: normal;
     font-size: 1.3em;
 }
@@ -82,12 +84,12 @@ ul.postlist li > p > a {
 
 /* more space in navicons */
 
-ul.navbar-nav  {
-  font-size:1.5em ;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+ul.navbar-nav {
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 
@@ -182,13 +184,51 @@ img {
 }
 
 H1.pechakucha {
-    display:none;
+    display: none;
 }
 
 /* Fading animation */
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+}
+
+/* site view only on in fullscreen */
+#slideshow:not(:fullscreen) #pageview {
+    display: none;
+}
+
+#slideshow:fullscreen #pageview {
+    display: block;
+}
+
+/* put controls in the bottm right of the screen and 
+       on top of the slides in fullscreen */
+#slideshow:fullscreen div.controls {
+    position: absolute;
+
+    /* hide card footer fullscreen */
+    #slideshow:fullscreen div.sd-card-footer {
+        display: none;
+    }
+
+    /* show card footer otherwise */
+    #slideshow:not(:fullscreen) div.sd-card-footer {
+        display: inherit;
+    }
+
+    bottom:0px;
+    right: 0px;
+    z-index: 100;
+}
+
+/* presentation button off in fullscreen */
+#slideshow:fullscreen #presentation {
+    display: none;
+}
+
+#slideshow:not(:fullscreen) #presentation {
+    display: block;
 }
 
 @keyframes fade {
