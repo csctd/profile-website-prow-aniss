@@ -24,13 +24,13 @@ First day moving in, receiving a temporary ID
 After Edwards, we were forced to walk in some crazy rain.
 ```
 
-```{card}
+ ```{card}
 :class-card: slide
 
 ![miserable in dorm](/_static/img/dorm.jpg "Me in my dorm")
 +++
 Because I didn't have a working ID, I was forced to stay in my room the entire first day.
-```
+``` 
 
 ```{card}
 :class-card: slide
@@ -55,10 +55,11 @@ After I finally got my ID, I felt pretty liberated!
 +++
 Exploring campus
 ```
+
 ```{card}
 :class-card: slide
 
-![Library Explore](/_static/img/explorelibrary.jpg "Picture of Library")
+![Library Explore](/_static/img/library.jpg "Picture of Library")
 +++
 Exploring the library
 ```
@@ -71,6 +72,8 @@ Exploring the library
 Some of the lunch I've had here!
 ```
 
+```{card}
+ :class-card: slide
 ![Worse lunch!](/_static/img/badfood.jpg "Plain rice, soggy chicken, etc.")
 +++
 It was a hit or miss sometimes though
@@ -103,10 +106,68 @@ A cozy spot I found in the library
 ```{card}
 :class-card: slide
 
-![writing in the day](/_static/img/PLACEHOLDER.jpg "list of files")
+![fire truck](/_static/img/alarm.jpg "fire truck")
 +++
-The many writings we had to do for our class
+Fire alarm at 6 in the morning :(
 ```
+```{card}
+:class-card: slide
+
+![lounge](/_static/img/Lounge.jpg "A fire truck")
++++
+We had a fire alarm at 6 in the morning. It kinda sucked
+```
+
+
+```{card}
+:class-card: slide
+
+![Tie dye tuesday](/_static/img/tiedye.jpg "A tie dye shirt!")
++++
+Tie dye event! Got a pretty cool shirt and it was my first time
+```
+
+```{card}
+:class-card: slide
+
+![Tie dye tuesday](/_static/img/tiedyeaftermath.jpg "A tie dye hand!")
++++
+The unfortunate aftermath
+```
+
+```{card}
+:class-card: slide
+
+![Vertigo](/_static/img/vertigo.jpg "Me in bed at the health services building")
++++
+I had vertigo!
+```
+```{card}
+:class-card: slide
+
+![Medicine](/_static/img/medicine.jpg "Medicine for vertigo")
++++
+Medicine to help with my symptoms
+```
+
+```{card}
+:class-card: slide
+
+![compsci class](/_static/img/class.jpg "Me in class")
++++
+Debugging "fun" in class
+```
+
+
+
+```{card}
+:class-card: slide
+
+![lounge](/_static/img/Lounge.jpg "Hillside lounge")
++++
+TD Summer was a pretty good time. Hope people have fun with it next year. Here's a lounge I was in most the time
+```
+
 
 ````
 </div>  
